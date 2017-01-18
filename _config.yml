@@ -1,4 +1,6 @@
 theme: jekyll-theme-hacker
+name: litleleprikon <iam@litleleprikon.me>
 title: '[litleleprikon]'
 description: 'Blog of one technomaniac'
 show_downloads: false
+baseurl: ""

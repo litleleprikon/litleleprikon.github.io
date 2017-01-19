@@ -7,3 +7,4 @@ baseurl: ""
 paginate: 10
 gems:
   - octopress-paginate
+google_analytics: UA-90618237-1

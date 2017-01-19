@@ -4,3 +4,6 @@ title: '[litleleprikon]'
 description: 'Blog of one technomaniac'
 show_downloads: false
 baseurl: ""
+paginate: 10
+gems:
+  - jekyll-paginate

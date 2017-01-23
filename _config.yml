@@ -7,4 +7,5 @@ baseurl: ""
 paginate: 10
 gems:
   - octopress-paginate
+  - jekyll-sitemap
 google_analytics: UA-90618237-1

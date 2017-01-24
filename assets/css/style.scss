@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-a:any-link {
+a, a:any-link {
 	color: #b5e853;
 	text-decoration: none;
 }

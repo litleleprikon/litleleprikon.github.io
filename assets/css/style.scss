@@ -3,11 +3,15 @@
 
 @import "{{ site.theme }}";
 
-a, a:any-link {
+a:any-link {
 	color: #b5e853;
 	text-decoration: none;
 }
 
+a {
+	color: #b5e853;
+	text-decoration: none;
+}
 a:hover {
 	text-decoration: underline;
 }

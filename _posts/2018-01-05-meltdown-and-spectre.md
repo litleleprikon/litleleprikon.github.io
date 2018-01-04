@@ -2,7 +2,7 @@
 layout: post
 title:  "Meltdown and Spectre"
 short_title: 'Критическая уязвимость процессоров'
-date:   2018-01-01 18:48:00
+date:   2018-01-05 04:40:00
 comments: true
 tags: [infosec]
 ---

@@ -1,65 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <title>{{ page.short_title | default: site.title }}</title>
-    <meta name="description" content="{{page.title | default:site.title}}" />
-    <meta property="og:title" content="{{page.short_title | default:site.title}}" />
-    <meta property="og:description" content="{{page.short_title | default:site.title}}" />
-    <meta property="og:url" content="https://litleleprikon.me{{page.url}}" />
-    <meta property="og:image" content="https://litleleprikon.me{{page.image | default: site.image}}" />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" href="https://litleleprikon.me/favicons/favicon-96x96.png" type=”image/x-icon" />
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#151515">
-    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#151515">
-  </head>
 
-  <body>
+<head>
+  <meta charset='utf-8'>
+  <title>{{ page.short_title | default: site.title }}</title>
+  <meta name="description" content="{{page.title | default:site.title}}" />
+  <meta property="og:title" content="{{page.short_title | default:site.title}}" />
+  <meta property="og:description" content="{{page.short_title | default:site.title}}" />
+  <meta property="og:url" content="https://litleleprikon.me{{page.url}}" />
+  <meta property="og:image" content="https://litleleprikon.me{{page.image | default: site.image}}" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="shortcut icon" href="https://litleleprikon.me/favicons/favicon-96x96.png" type="image/x-icon " />
+  <link rel="manifest " href="/manifest.json">
+  <meta name="msapplication-TileColor " content="#151515 ">
+  <meta name="msapplication-TileImage " content="/favicons/ms-icon-144x144.png ">
+  <meta name="theme-color " content="#151515 ">
+  <script type="text/x-mathjax-config ">
+    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });
+  </script>
+</head>
 
-    <header>
-      <div class="container">
-        <h1><a href="/">{{ site.title }}</a></h1>
-        <h2>{{ site.description }}</h2>
-        <nav><a href="/bio">/bio</a> | <a href="/hiring">/hiring</a></nav>
-        <section id="downloads">
-          <a href="http://github.com/litleleprikon" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+<body>
 
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
+  <header>
+    <div class="container ">
+      <h1>
+        <a href="/ ">{{ site.title }}</a>
+      </h1>
+      <h2>{{ site.description }}</h2>
+      <nav>
+        <a href="/bio ">/bio</a> |
+        <a href="/hiring ">/hiring</a>
+      </nav>
+      <section id="downloads ">
+        <a href="http://github.com/litleleprikon " class="btn btn-github ">
+          <span class="icon "></span>View on GitHub</a>
       </section>
     </div>
+  </header>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-        try {
-          var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
-        pageTracker._trackPageview();
-        } catch(err) {}
-      </script>
-    {% endif %}
-  </body>
+  <div class="container ">
+    <section id="main_content ">
+      {{ content }}
+    </section>
+  </div>
+
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML ">
+  </script>
+  {% if site.google_analytics %}
+  <script type="text/javascript ">
+    var gaJsHost = (("https: " == document.location.protocol) ? "https://ssl. " : "http://www. ");
+    document.write(unescape("%3Cscript src='" + gaJsHost +
+      "google-analytics.com/ga.js' type='text/javascript' %3E%3C/script%3E "));
+  </script>
+  <script type="text/javascript ">
+    try {
+      var pageTracker = _gat._getTracker("{{ site.google_analytics }} ");
+      pageTracker._trackPageview();
+    } catch (err) {}
+  </script>
+  {% endif %}
+</body>
+
 </html>

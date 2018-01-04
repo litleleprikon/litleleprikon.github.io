@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Meltdown and Spectre | Meltdown and Spectre"
+title:  "Meltdown and Spectre"
 short_title: 'Критическая уязвимость процессоров'
 date:   2018-01-01 18:48:00
 comments: true

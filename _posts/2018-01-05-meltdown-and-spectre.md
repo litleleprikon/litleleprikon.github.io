@@ -100,6 +100,6 @@ if (untrusted_offset_from_caller < arr1->length) {
 
 Другим вариантом уязвимости Spectre является использование предсказателя переходов: злоумышленник запутывает предсказатель переходов, заставляя его заранее предсказать переход на область памяти, в которой лежит код злоумышленника. Процессор исполнит код, подсунутый злоумышленником и когда поймет, что исполнять его не стоило, откатит изменения. Однако черерз кэш можно восстановить данные, которые были считаны на предыдущем шаге атаки.
 
-Информация взята из исследования (**Spectre Attacks: Exploiting Speculative Execution**)[https://spectreattack.com/spectre.pdf]
+Информация взята из исследования [**Spectre Attacks: Exploiting Speculative Execution**](https://spectreattack.com/spectre.pdf)
 
-Продожение следует... https://litleleprikon.me/2018/01/05/meltdown-and-spectre-2.html
+Продожение следует... [https://litleleprikon.me/2018/01/05/meltdown-and-spectre-2.html](https://litleleprikon.me/2018/01/05/meltdown-and-spectre-2.html)

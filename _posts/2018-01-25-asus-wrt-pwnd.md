@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Уязвимости прошивке AsusWRT"
+title:  "Уязвимости в прошивке AsusWRT"
 short_title: "Уязвимости прошивке AsusWRT"
 date:   2018-01-25 18:23:00
 comments: true

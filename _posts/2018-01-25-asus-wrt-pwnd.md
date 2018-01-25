@@ -9,6 +9,8 @@ tags: [infosec]
 
 В прошивке AsusWRT, используемой в роутерах ASUS, найдены уязвимости, позволяющие произвести атаку remote code execution, если злоумышленник находится в одной локальной сети с роутером. Уязвимости обнаружены исследователем Pedro Ribeiro ([pedrib@gmail.com](mailto:pedrib@gmail.com)) и опубликованы на [GitHub](https://raw.githubusercontent.com/pedrib/PoC/master/advisories/asuswrt-lan-rce.txt).
 
+![Asus Router](/images/2018/asus/asus.png)
+
 ## HTTP server authentication bypass
 
 **[CVE-2018-5999](https://vulners.com/cve/CVE-2018-5999)**
